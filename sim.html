@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PIOXNO</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+    }
+    /* Style the top navigation bar */
+.navbar {
+    width: 100%;
+    overflow:hidden;
+    background-color:white;
+    padding: 10px;
+    top:0%;
+    position:fixed;
+    box-shadow:0px 0px 30px #d4d2d2;
+    
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    float: right;
+    display: block;
+    color:orangered;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration:none;
+    font-size: 20px;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+    float: left;
+    
+}
+
+/* Change color on hover */
+a:hover {
+    color:royalblue;
+    font-size: 25px;
+}
+B{
+    background-color: #807d7d;
+    padding: 5px;
+    color:liner-grediant(45deg,blue,orangered);
+    font-size: 20px;
+    box-shadow: 0px 0px 10px 0px  #807d7d;
+}
+
+ 
+ .tab{
+     width: 25%;
+     padding: 10px 20px;
+     box-shadow:0px 0px 10px 0px #807d7d;
+     height: 200px;
+     border-radius: 30px;
+     background-color: black;
+     color: white; 
+ }
+ .cut{
+     width: 20px;
+ }
+ .side {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    padding: 10px ;
+    height: 400px;    
+    box-shadow:0px 0px 10px 0px #929191 ;
+
+ }
+    .hole{
+     display: flex;
+ }
+   
+.side:hover{
+    background: linear-gradient(35deg,royalblue,white);
+    color: white;
+    padding: 50px 10px;
+}
+/* Main column */
+.main {   
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+    background-color:white;
+    padding: 10px 10px;
+    box-shadow:0px 0px 10px 0px #929191 ;
+}
+
+  .maid:hover{
+    background-image: url(abc.jpg);
+  }
+  h3{
+      color:orangered;
+      padding: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      
+  }
+  h2:hover{
+      padding: 5px 2px;
+      color:royalblue;
+  }
+  h2{
+      padding: 5px;
+      color: orangered;
+  }
+  p{
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 8px;
+      font-size: 15px;
+      color: #807d7d;
+  }
+   button{
+       border: 0px solid rgb(32, 230, 6);
+       padding: 10px 3px;
+       box-align:right;
+       text-decoration: none;
+       
+       
+       overflow: hidden;
+   }
+   button:hover{
+       background-color:green;
+    
+       color: white;
+   }
+   
+   .pic{
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    background-color:rgb(255, 255, 255);
+    padding: 10px ;
+    height: 300px;    
+    box-shadow:0px 0px 10px 0px #929191 ;
+   }
+   .mid{
+    background-color:white;
+    padding: 10px ;
+    height: 400px;    
+    box-shadow:0px 0px 10px 0px #929191 ;
+   }
+   .font{
+       padding: 7px;
+       font-family: Arial, Helvetica, sans-serif;
+       color: blanchedalmond;
+   }
+   .font:hover{
+       color:rgb(32, 31, 31);
+   }
+   .feed:hover{
+       background: linear-gradient(45deg,blue,red)
+   }
+   .feed{
+       width: 50%;
+       font-family: Arial, Helvetica, sans-serif;
+       height: 300px;
+       padding: 10px 10px;
+    box-shadow:0px 0px 10px 0px #929191 ;
+   }
+   h4{
+      padding : 30px 5px;
+   }
+   .tab:hover{
+       background:linear-gradient(120deg,white,red)
+   }
+   .color{
+      
+       background-image: url(abc.jpg);
+    background-origin: border-box;
+       width:auto;
+       height: 600px;
+       padding: 30px;
+      display: -ms-grid;   
+   }
+   
+ input[type=text]{
+    border: 1px solid black;
+    padding:15px;
+    width:30px;
+    top: 50px;
+ }
+ input:hover{
+      width: 200px;
+ }
+ .ball{
+     display: flex;
+     padding: 10px;
+    overflow: hidden;
+    animation-duration: infinite;
+       animation-name: bounce;
+
+ }
+ .red{
+     border-radius: 50%;
+     background: linear-gradient(125deg,red,blue);
+     left: 150px;
+ }
+ .black{
+    border-radius: 50%;
+     background-color: black;
+     left: 25px;
+ }
+ .div{
+     width: 20%;
+     height: 200px;
+     background-color: aquamarine;
+ }
+</style>
+<script src="sim.js"></script>
+<body>
+<div class="navbar"> 
+    
+    <a href="home.html">MORE</a>
+    <a href="apply.html">APPLY</a>
+    <a href="CONSTUCTIONs.html">Apartment</a>
+   <a href="">Projects</a>
+    <a href="web school.html">Pioxno Group</a>
+   <a href="coders.html">Luxury Villas</a>
+   </ul>
+    <a href="contract.html"></a>
+   
+<img src="abc.jpg" alt="" width="50px" height="50px"> 
+</div><br>
+<br>
+<br><br>
+<div class="color">
+    
+    </div>
+</div>
+<br>
+<div class="hole">
+        <div class="cut"></div>
+    <div class="side"><h3>Projects</h3>
+        <p>Project management is the planning, organizing and managing the effort to accomplish a successful project.
+             A project is a one-time activity that produces a specific output and or outcome, 
+             for example, a building or a major new computer system.</p>
+             <button >Learn More</button>
+    
+    </div><div class="cut"></div>
+
+    <div class="side"><h3>Architecture</h3>
+       <p> Architecture is both the process and the product of planning,
+         designing, and constructing buildings or any other structures. Architectural works,
+          in the material form of buildings, are often perceived as cultural symbols and as works of art
+          Architects design all kinds of buildings. ... Before constructing a building,
+           an architect needs to draw a plan of the building.</p>
+           
+           <button > Learn More</button>
+    </div>  <div class="cut"></div>
+    <div class="side"><h3>Luxury Villas</h3>
+        <p>A villa was originally an ancient Roman upper-class country house.
+         Since its origins in the Roman villa, the idea and function of a villa have evolved considerably.
+        
+        </p>
+        <button >Learn More</button>
+    </div>  <div class="cut"></div>
+    <div class="side"><h3>Apartment</h3>
+        <p>Apartment house, also called apartment block, or block of flats, building containing more than one dwelling unit,
+             most of which are designed for domestic use, but sometimes including shops and other nonresidential features. 
+             Apartment buildings have existed for centuries</p>
+             <button >  Learn More</button>
+    
+    </div>  <div class="cut"></div>
+
+
+  </div><br>
+  <div class="mid"></div>
+  
+<br>
+  <div class="hole">
+            <div class="cut"></div>       <div class="feed">
+
+    </div><div class="cut"></div>
+        <div class="feed"></div><div class="cut"></div>
+  </div>
+
+  <br>
+  
+  <div class="ball">
+    <div class="red"></div>
+    <div class="black"></div>
+</div>
+<br>
+
+<div class=" fa-fa instagram"></div>
+<br>
+
+    
+
+  <div class="hole">
+    <div class="tab">
+        <h2>About</h2>
+        <p class="font"></p>
+        <p class="font">giveaway</p>
+        <p class="font">send </p>
+        <p class="font">receive</p>
+        <p class="font">dont </p>
+        <p class="font">cont</p>
+
+    </div><div class="cut"></div>
+
+
+    <div class="tab"><h2>Contact</h2>
+        <p class="font">EMAIL   : iampioxno@gmail.com</p>
+        <p class="font">Phone   : +918095914071 </p>
+        <p class="font">Address : India,Karnataka,Banglore</p>
+        <p class="font"></p>
+        <p class="font"></p>
+        <p class="font"></p>
+    </div><div class="cut"></div>
+    <div class="tab"><h2>Our Branches</h2>
+        <p class="font">Banglore</p>
+        <p class="font">Mumbai</p>
+        <p class="font">Pune</p>
+        <p class="font">Kolhapur</p>
+        <p class="font">Hydrabad</p>
+        
+    </div><div class="cut"></div>
+    <div class="tab"><h2>More</h2>
+        <p class="font">WEB Develpment</p>
+        <p class="font">Information Technology</p>
+        <p class="font">Tours & Travels</p>
+        <p class="font">Hotels</p>
+        <p class="font">Finance</p>
+                 
+    </div>
+    </div>
+
+</div>    
+</body>
+</html>
