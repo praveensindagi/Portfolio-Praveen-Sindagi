@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap 4 Introduction</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400i" rel="stylesheet"></head>
+<style>
+    *{
+        margin: 0%;
+        
+    }
+.imgbg{
+    background-image: url("me.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-color: #cccccc;
+    width: 100%;
+    height: 300px;
+}
+.res{
+    margin: auto ;
+    width: 300px;
+    height: 400px;
+    background-color:white;
+    background-image: url(res.jpg);
+    box-shadow: 0px 0px 8px rgb(100, 98, 98);
+}
+.res-sd{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    padding-top: 70px;
+    padding-right: 70px;
+    padding-bottom: 70px;
+    padding-left: 70px;
+    box-shadow: 0 0 0 0 #fff;
+    color: #fff;
+    background-color: #42474c;
+}
+.red-sdh1 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold ;
+}
+.reg {
+    position: absolute ;
+    bottom: 1em ;
+    width: 30% ;
+    left: 35%
+    
+}
+footer{
+    background-color:rgb(24, 25, 27);
+    width: 100%;
+    height:auto;
+}
+.font{
+    color: white;
+    font-size: 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.custombg {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+@media only screen and (max-width: 600px) {
+  .res {
+    margin-top: 15px ;
+  }
+}
+</style>
+
+<body class="custombg">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light " style="background-color:royalblue; box-shadow: 0px 0px 10px 0px rgb(90, 88, 88);">
+        <a href="#" class="navbar-brand">Pioxno <strong>Quiz</strong></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarMenu" >
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" > Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Join US</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Xno Base</a>
+                </li>
+                <li class="nav-item">
+                  
+                        <a href="#" class="nav-link" style="hover:color: orangered;">CODErs</a>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link"><span class=""></span></a>
+                </li>
+            </ul>
+        </div>
+
+</nav>
+
+  <div class="container-fluid">
+     
+      <div class="row mt-1">
+          <div class="col">
+                <div class="res-sd mt-5" style=" background-image: url(top.jpg);">
+                <h2 class="red-sdh1">PIOXNO Quiz Season 1
+
+                </h2> 
+                </div>    
+          </div>
+          <div class="col">
+                <div class="res res-sm">
+                      
+                     
+                        
+                        </div>
+
+            
+                    <button type="button" class="btn btn-dark reg">Register Now</button>
+                  </div>
+          </div>
+      </div>
+
+  </div>
+
+  <div class="container mt-5">
+  <div class="card-deck">
+        <div class="card">
+          <img src="tech.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Technology</h5>
+            <p class="card-text" style="font-family:Arial, Helvetica, sans-serif; color: rgb(82, 76, 76)">Take our quiz to find out.
+                 Test how much you know about technology 
+                .</p>
+            <p class="card-text"></p>
+            <button class="btn btn-primary"><a href="qh.html" style="color:white;text-decoration:none;"> Take A Quiz </a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="cric.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cricket</h5>
+            <p class="card-text"style="font-family:Arial, Helvetica, sans-serif; color: rgb(82, 76, 76)">Take our quiz to find out. Test how
+                 much you know about Cricket 
+                 </p>
+            <p class="card-text"></p>
+            <button class="btn btn-primary"><a href="qh.html" style="color:white;text-decoration:none;"> Take A Quiz </a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="code.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Programming</h5>
+            <p class="card-text" style="font-family:Arial, Helvetica, sans-serif; color: rgb(82, 76, 76)">Take our quiz to find out.
+                 Test how much you know about Programming </p>
+            <p class="card-text"></p>
+            <button class="btn btn-primary"><a href="qh.html" style="color:white;text-decoration:none;"> Take A Quiz </a> </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+ 
+
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+
+          <!-- Content -->
+         
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+            <!-- Links -->
+            <h5 class="text-uppercase" style="color:rgb(133, 131, 131);">Support US</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!"style="color:rgb(104, 99, 99);">Phone : +918095914071</a>
+              </li>
+              <li>
+                <a href="#!" style="color:rgb(104, 99, 99);">Email : iampioxno@gmail.com</a>
+              </li>
+              <li>
+                <a href="#!" style="color:rgb(104, 99, 99);">Website : Pioxno.io</a>
+              </li>
+              <li>
+                <a href="#!" style="color:rgb(104, 99, 99);"> </a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+
+            <!-- Links -->
+            <h5 class="text-uppercase" style="color:rgb(104, 99, 99);"> Pioxno </h5>
+
+            <ul class="list-unstyled" >
+              <li>
+                <a href="#!" style="color:rgb(104, 99, 99);">CODErs</a>
+              </li>
+              <li>
+                <a href="#!" style="color:rgb(104, 99, 99);">XNO Base</a>
+              </li>
+              <li>
+                <a href="#!" style="color:rgb(104, 99, 99);">Code Studio</a>
+              </li>
+              <li>
+                <a href="#!" style="color:rgb(104, 99, 99);">Pioxno Group</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" style="background-color: black;color:rgb(104, 99, 99);">© 2019 Copyright:
+      <a href=""> Pioxno.io</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        
+</body>
+
+</html>
